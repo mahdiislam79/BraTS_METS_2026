@@ -1,0 +1,19 @@
+{
+    "channel_names": {
+        "0": "T1",
+        "1": "T1CE",
+        "2": "T2",
+        "3": "FLAIR"
+    },
+    "labels": {
+        "background": 0,
+        "whole_tumor": [1, 2, 3],
+        "tumor_core": [1, 3],
+        "enhancing_tumor": [3],
+        "resection_cavity": [4]
+    },
+    "regions_class_order": [2, 1, 3, 4],
+    "numTraining": 1295,
+    "file_ending": ".nii.gz",
+    "_note": "regions_class_order corrected from the naive ascending order (see paper Section 2.5 / scripts/10_fix_regions_class_order.py). Region index 0 (whole_tumor) maps to label 2 (SNFH, outermost), applied first; region index 1 (tumor_core) maps to label 1 (NETC), overwrites WT; region index 2 (enhancing_tumor) maps to label 3 (ET), overwrites TC; region index 3 (resection_cavity) maps to label 4 (RC), independent, applied last."
+}
