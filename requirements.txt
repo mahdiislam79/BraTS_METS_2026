@@ -1,0 +1,7 @@
+nnunetv2
+torch
+scipy
+nibabel
+scikit-learn
+surface-distance
+numpy
