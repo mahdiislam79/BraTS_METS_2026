@@ -59,7 +59,7 @@ This project uses the **BraTS-METS 2025 Lighthouse dataset** (reused for BraTS 2
 
 ## Model Weights
 
-Trained model checkpoints are not included in this repository due to size. [Add a link here if/when weights are published to Zenodo, Hugging Face, or a Synapse Docker repository, e.g. `docker.synapse.org/syn75814152/bratsmets-ensemble:v1`.]
+Trained model checkpoints are not included in this repository due to size. We could provide them if requested. 
 
 ---
 
